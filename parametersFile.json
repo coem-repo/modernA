@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "PlanName1"
+    },
+    "webSiteName": {
+      "value": "Website1"
+    },
+    "skuName": {
+      "value": "F1"
+    },
+    "skuCapacity": {
+      "value": 1
+    },
+    "location": {
+      "value": "[resourceGroup().location]"
+    }
+  }
+}
